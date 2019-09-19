@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2B43CF2333DC7300EBCBB2 /* Pythagoras Lab.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B43CE2333DC7300EBCBB2 /* Pythagoras Lab.c */; };
+		7F2B43D22333DCCC00EBCBB2 /* Data Types IO Lab.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B43D12333DCCC00EBCBB2 /* Data Types IO Lab.c */; };
 		7F86857C232A9B6E00B2F4AE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F86857B232A9B6E00B2F4AE /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F2B43CD2333DC7300EBCBB2 /* Pythagoras Lab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pythagoras Lab.h"; sourceTree = "<group>"; };
+		7F2B43CE2333DC7300EBCBB2 /* Pythagoras Lab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Pythagoras Lab.c"; sourceTree = "<group>"; };
+		7F2B43D02333DCCC00EBCBB2 /* Data Types IO Lab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Data Types IO Lab.h"; sourceTree = "<group>"; };
+		7F2B43D12333DCCC00EBCBB2 /* Data Types IO Lab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Data Types IO Lab.c"; sourceTree = "<group>"; };
 		7F868578232A9B6E00B2F4AE /* Data Types and IO Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Types and IO Lab"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F86857B232A9B6E00B2F4AE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +44,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F2B43CB2333DC3600EBCBB2 /* Pythagoras Lab  */ = {
+			isa = PBXGroup;
+			children = (
+				7F2B43CE2333DC7300EBCBB2 /* Pythagoras Lab.c */,
+				7F2B43CD2333DC7300EBCBB2 /* Pythagoras Lab.h */,
+			);
+			path = "Pythagoras Lab ";
+			sourceTree = "<group>";
+		};
+		7F2B43CC2333DC4800EBCBB2 /* Data Types IO Lab */ = {
+			isa = PBXGroup;
+			children = (
+				7F2B43D12333DCCC00EBCBB2 /* Data Types IO Lab.c */,
+				7F2B43D02333DCCC00EBCBB2 /* Data Types IO Lab.h */,
+			);
+			path = "Data Types IO Lab";
+			sourceTree = "<group>";
+		};
 		7F86856F232A9B6E00B2F4AE = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				7F86857B232A9B6E00B2F4AE /* main.c */,
+				7F2B43CB2333DC3600EBCBB2 /* Pythagoras Lab  */,
+				7F2B43CC2333DC4800EBCBB2 /* Data Types IO Lab */,
 			);
 			path = "Data Types and IO Lab";
 			sourceTree = "<group>";
@@ -118,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2B43D22333DCCC00EBCBB2 /* Data Types IO Lab.c in Sources */,
+				7F2B43CF2333DC7300EBCBB2 /* Pythagoras Lab.c in Sources */,
 				7F86857C232A9B6E00B2F4AE /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
