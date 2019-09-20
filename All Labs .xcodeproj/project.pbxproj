@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F2B43CF2333DC7300EBCBB2 /* PythagorasLab.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B43CE2333DC7300EBCBB2 /* PythagorasLab.c */; };
 		7F86857C232A9B6E00B2F4AE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F86857B232A9B6E00B2F4AE /* main.c */; };
+		7FA29F7C2335291F00DA475B /* DataTypesLab.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FA29F7B2335291F00DA475B /* DataTypesLab.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,10 @@
 /* Begin PBXFileReference section */
 		7F2B43CD2333DC7300EBCBB2 /* PythagorasLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythagorasLab.h; sourceTree = "<group>"; };
 		7F2B43CE2333DC7300EBCBB2 /* PythagorasLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PythagorasLab.c; sourceTree = "<group>"; };
-		7F868578232A9B6E00B2F4AE /* Data Types and IO Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Types and IO Lab"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F86857B232A9B6E00B2F4AE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		7FA29F7A2335291F00DA475B /* DataTypesLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTypesLab.h; sourceTree = "<group>"; };
+		7FA29F7B2335291F00DA475B /* DataTypesLab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DataTypesLab.c; sourceTree = "<group>"; };
+		7FA29F7D2335293100DA475B /* All Labs  */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "All Labs "; path = "/Users/1935922/Documents/Gwendolyn-Vestal/build/Debug/All Labs "; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,34 +56,35 @@
 		7F86856F232A9B6E00B2F4AE = {
 			isa = PBXGroup;
 			children = (
-				7F86857A232A9B6E00B2F4AE /* Data Types and IO Lab */,
-				7F868579232A9B6E00B2F4AE /* Products */,
+				7F86857A232A9B6E00B2F4AE /* Labs  */,
 			);
 			sourceTree = "<group>";
 		};
-		7F868579232A9B6E00B2F4AE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7F868578232A9B6E00B2F4AE /* Data Types and IO Lab */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7F86857A232A9B6E00B2F4AE /* Data Types and IO Lab */ = {
+		7F86857A232A9B6E00B2F4AE /* Labs  */ = {
 			isa = PBXGroup;
 			children = (
 				7F86857B232A9B6E00B2F4AE /* main.c */,
 				7F2B43CB2333DC3600EBCBB2 /* Pythagoras Lab  */,
+				7FA29F79233528EE00DA475B /* Data Types Lab  */,
 			);
-			path = "Data Types and IO Lab";
+			path = "Labs ";
+			sourceTree = "<group>";
+		};
+		7FA29F79233528EE00DA475B /* Data Types Lab  */ = {
+			isa = PBXGroup;
+			children = (
+				7FA29F7B2335291F00DA475B /* DataTypesLab.c */,
+				7FA29F7A2335291F00DA475B /* DataTypesLab.h */,
+			);
+			path = "Data Types Lab ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F868577232A9B6E00B2F4AE /* Data Types and IO Lab */ = {
+		7F868577232A9B6E00B2F4AE /* All Labs  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F86857F232A9B6E00B2F4AE /* Build configuration list for PBXNativeTarget "Data Types and IO Lab" */;
+			buildConfigurationList = 7F86857F232A9B6E00B2F4AE /* Build configuration list for PBXNativeTarget "All Labs " */;
 			buildPhases = (
 				7F868574232A9B6E00B2F4AE /* Sources */,
 				7F868575232A9B6E00B2F4AE /* Frameworks */,
@@ -90,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = "Data Types and IO Lab";
+			name = "All Labs ";
 			productName = "Data Types and IO Lab";
-			productReference = 7F868578232A9B6E00B2F4AE /* Data Types and IO Lab */;
+			productReference = 7FA29F7D2335293100DA475B /* All Labs  */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F868573232A9B6E00B2F4AE /* Build configuration list for PBXProject "Data Types and IO Lab" */;
+			buildConfigurationList = 7F868573232A9B6E00B2F4AE /* Build configuration list for PBXProject "All Labs " */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,11 +121,11 @@
 				en,
 			);
 			mainGroup = 7F86856F232A9B6E00B2F4AE;
-			productRefGroup = 7F868579232A9B6E00B2F4AE /* Products */;
+			productRefGroup = 7F86856F232A9B6E00B2F4AE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F868577232A9B6E00B2F4AE /* Data Types and IO Lab */,
+				7F868577232A9B6E00B2F4AE /* All Labs  */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F2B43CF2333DC7300EBCBB2 /* PythagorasLab.c in Sources */,
+				7FA29F7C2335291F00DA475B /* DataTypesLab.c in Sources */,
 				7F86857C232A9B6E00B2F4AE /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +274,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F868573232A9B6E00B2F4AE /* Build configuration list for PBXProject "Data Types and IO Lab" */ = {
+		7F868573232A9B6E00B2F4AE /* Build configuration list for PBXProject "All Labs " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F86857D232A9B6E00B2F4AE /* Debug */,
@@ -278,7 +283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F86857F232A9B6E00B2F4AE /* Build configuration list for PBXNativeTarget "Data Types and IO Lab" */ = {
+		7F86857F232A9B6E00B2F4AE /* Build configuration list for PBXNativeTarget "All Labs " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F868580232A9B6E00B2F4AE /* Debug */,
