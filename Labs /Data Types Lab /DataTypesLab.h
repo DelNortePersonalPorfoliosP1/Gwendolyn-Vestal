@@ -10,6 +10,6 @@
 #define DataTypesLab_h
 
 #include <stdio.h>
-int oogabalooga(void);
+int datatypes(void);
 
 #endif /* DataTypesLab_h */
