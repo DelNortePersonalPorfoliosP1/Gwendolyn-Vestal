@@ -6,11 +6,11 @@
 //  Copyright © 2019 Vestal, Gwendolyn. All rights reserved.
 //
 
-#include "Pythagoras Lab.h"
+#include "PythagorasLab.h"
 #include <stdio.h>
 #include <math.h>
 
-int main(int argc, const char * argv[]) {
+int pyth(void) {
     
     double side1;
     double side2;

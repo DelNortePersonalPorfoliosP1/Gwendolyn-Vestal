@@ -10,5 +10,5 @@
 #define Pythagoras_Lab_h
 
 #include <stdio.h>
-
+int pyth(void);
 #endif /* Pythagoras_Lab_h */
